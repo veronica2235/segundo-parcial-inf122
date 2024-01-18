@@ -1,11 +1,11 @@
-import './App.css';
-import ListaMetas from './components/ListaMetas.js';
+import React from "react";
+import Botontex from "./components/Botontex";
+
 function App() {
   return (
-    <div className="App">
-      <ListaMetas/>
+    <div>
+      <Botontex/>
     </div>
   );
 }
-
 export default App;

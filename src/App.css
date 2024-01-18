@@ -1,10 +1,21 @@
-.App{
-  text-align: center;
-  background-color: black;
+:root{
+  --white:#FFFFFF;
+  --red:#117A7A;
+  --green:#117A7A;
+  --greenLigth:#1C9675;
+  --brown:#5A5A5A;
+  --greydly:#F6F7F9;
+  --grey:#767E8C;
+  --greyLigth:#D9D9D9;
+  --black:#1B1C1F;
+  --sl:16px;
+  --md:20px;
+  --lg:40px;
 }
-html,
-body {
-  font-size: 18px;
-  background-color: #000000;
-  font-family: "Segoe UI", "Helvetica Neue", sans-serif;
+.App {
+  color: var(--greydly);
+  text-align: center;
+  align-items: center;
+ 
+  background-color:#1B1C1F;;
 }
