@@ -1,0 +1,21 @@
+:root{
+    --black:#1b1f1b;
+    --white:#FFFFFF;
+    --sm:16px;
+    --md:24px;
+    --lg:40px;
+}
+.contenedor-principal{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    background-color: var(--black);
+    color: var(--white);
+}
+.title{
+    font-size: var(--lg);
+}
+
+
+

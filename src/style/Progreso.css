@@ -1,0 +1,16 @@
+.obj{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.obj-info{
+    text-align: initial;
+}
+.texto{
+    width: 300px;
+}
+.boton img{
+    margin: 3px;
+    border-radius: 50%;
+}
